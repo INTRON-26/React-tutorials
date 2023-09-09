@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css';
 
 const BookList = () => {
   return <section>
@@ -19,8 +20,8 @@ const Book = () =>{
   </article>
 }
 
-const Image = () => <h2>Image</h2>
-const Title = () => <h2>Title</h2>
+const Image = () => <img src="https://m.media-amazon.com/images/I/71wI-F8nkiS._AC_UY218_.jpg" alt="There is nothing to show here."></img>
+const Title = () => <h1>Title</h1>
 const Author = () => {
   return <h4>Author</h4>
 }
